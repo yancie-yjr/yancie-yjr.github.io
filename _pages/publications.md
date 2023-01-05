@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Publications by categories in reversed chronological order. Full list can be found at <b><a href='https://scholar.google.com.hk/citations?user=8Of_NYQAAAAJ&hl=en'>Google Scholar</a></b>.
 years: [2023, 2022, 2021]
 nav: true
