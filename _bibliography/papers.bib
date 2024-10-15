@@ -12,37 +12,84 @@
 @string{interspeech ={The Conference of the International Speech Communication Association (InterSpeech) }}
 @string{prl = {Pattern Recognition Letters (PRL)}}
 @string{iclr = {International Conference on Learning Representations (ICLR)}}
+@string{iros = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}}
 
-@article{zhao2023dreamllm,
+@inproceedings{wei2025vary,
+  abbr={ECCV'24},
+  title={Vary: Scaling up the Vision Vocabulary for Large Vision-Language Model},
+  author={Yu, En and Zhao, Liang and Wei, Yana and Yang, Jinrong and Wu, Dongming and Kong, Lingyu and Wei, Haoran and Wang, Tiancai and Ge, Zheng and Zhang, Xiangyu and others},
+  booktitle=eccv,
+  year={2024},
+  html={https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00613.pdf},
+  selected={true}
+}
+
+@inproceedings{ye2025merlin,
+  abbr={ECCV'24},
+  title={Vary: Scaling up the Vision Vocabulary for Large Vision-Language Model},
+  author={Wei, Haoran and Kong, Lingyu and Chen, Jinyue and Zhao, Liang and Ge, Zheng and Yang, Jinrong and Sun, Jianjian and Han, Chunrui and Zhang, Xiangyu},
+  booktitle=eccv,
+  year={2024},
+  html={https://link.springer.com/chapter/10.1007/978-3-031-73235-5_23},
+  selected={true}
+}
+
+@inproceedings{2024dreamllm,
+  abbr={ICLR'24},
   preview={dreamllm.png},
   bibtex_show={true},
   title={DreamLLM: Synergistic Multimodal Comprehension and Creation},
   author={Dong, Runpei and Han, Chunrui and Peng, Yuang and Qi, Zekun and Ge, Zheng and Yang, Jinrong and Zhao, Liang and Sun, Jianjian and Zhou, Hongyu and Wei, Haoran and others},
-  journal={arXiv preprint arXiv:2309.11499},
+  year={2024},
+  booktitle=iclr,
   html={https://arxiv.org/pdf/2309.11499.pdf},
-  year={2023},
   selected={true}
 }
 
-@article{zhao2023chatspot,
+@inproceedings{zhao2023chatspot,
+  abbr={IJCAI'24},
   preview={chatspot.png},
   bibtex_show={true},
   title={ChatSpot: Bootstrapping Multimodal LLMs via Precise Referring Instruction Tuning},
   author={Zhao, Liang and Yu, En and Ge, Zheng and Yang, Jinrong and Wei, Haoran and Zhou, Hongyu and Sun, Jianjian and Peng, Yuang and Dong, Runpei and Han, Chunrui and others},
-  journal={arXiv preprint arXiv:2307.09474},
+  year={2024},
+  booktitle=ijcai,
   html={https://arxiv.org/pdf/2307.09474.pdf},
-  year={2023},
   selected={true}
 }
 
-@article{li2023grouplane,
+@inproceedings{han2023exploring,
+  abbr={IROS'24},
+  preview={videobev.png},
+  bibtex_show={true},
+  title={Exploring Recurrent Long-term Temporal Fusion for Multi-view 3D Perception},
+  author={Han*, Chunrui and Yang*, Jinrong and Sun, Jianjian and Ge, Zheng and Dong, Runpei and Zhou, Hongyu and Mao, Weixin and Peng, Yuang and Zhang, Xiangyu},
+  year={2024},
+  booktitle=iros,
+  html={https://ieeexplore.ieee.org/abstract/document/10530939/},
+  selected={true}
+}
+
+@inproceedings{yang2022quality,
+  abbr={IROS'24},
+  preview={qtrack.jpg},
+  bibtex_show={true},
+  title={Quality Matters: Embracing Quality Clues for Robust 3D Multi-Object Tracking},
+  author={Yang*, Jinrong and Yu*, En and Li, Zeming and Li, Xiaoping and Tao, Wenbing},
+  year={2024},
+  booktitle=iros,
+  html={https://arxiv.org/pdf/2208.10976.pdf},
+  selected={true}
+}
+
+@article{li2024grouplane,
   preview={grouplane.png},
   bibtex_show={true},
   title={GroupLane: End-to-End 3D Lane Detection with Channel-wise Grouping},
   author={Li, Zhuoling and Han, Chunrui and Ge, Zheng and Yang, Jinrong and Yu, En and Wang, Haoqian and Zhao, Hengshuang and Zhang, Xiangyu},
   journal={arXiv preprint arXiv:2307.09472},
-  html={https://arxiv.org/pdf/2307.09472.pdf},
-  year={2023},
+  html={https://ieeexplore.ieee.org/abstract/document/10706836},
+  year={2024},
   selected={true}
 }
 
@@ -53,17 +100,6 @@
   author={Mao*, Weixin and Yang*, Jinrong and Ge, Zheng and Song, Lin and Zhou, Hongyu and Mao, Tiezheng and Li, Zeming and Yoshie, Osamu},
   journal={arXiv preprint arXiv:2306.17450},
   html={https://arxiv.org/pdf/2306.17450.pdf},
-  year={2023},
-  selected={true}
-}
-
-@article{han2023exploring,
-  preview={videobev.png},
-  bibtex_show={true},
-  title={Exploring Recurrent Long-term Temporal Fusion for Multi-view 3D Perception},
-  author={Han, Chunrui and Sun, Jianjian and Ge, Zheng and Yang, Jinrong and Dong, Runpei and Zhou, Hongyu and Mao, Weixin and Peng, Yuang and Zhang, Xiangyu},
-  journal={arXiv preprint arXiv:2303.05970},
-  html={https://arxiv.org/pdf/2303.05970.pdf},
   year={2023},
   selected={true}
 }
@@ -150,18 +186,6 @@
   year={2022},
   journal={arXiv preprint arXiv:2211.08287},
   html={https://arxiv.org/pdf/2211.08287.pdf},
-  selected={true}
-}
-
-
-@article{yang2022quality,
-  preview={qtrack.jpg},
-  bibtex_show={true},
-  title={Quality Matters: Embracing Quality Clues for Robust 3D Multi-Object Tracking},
-  author={Yang*, Jinrong and Yu*, En and Li, Zeming and Li, Xiaoping and Tao, Wenbing},
-  year={2022},
-  journal={arXiv preprint arXiv:2208.10976},
-  html={https://arxiv.org/pdf/2208.10976.pdf},
   selected={true}
 }
 
